@@ -1,7 +1,8 @@
 # MY ASP.NET MVC BASIC PROJECTS
  
 ## SCRIPT TO INSERTING DATA WITH PRIMARY KEY AND CURRENT TIME IN SQL.
-
+```
 SET IDENTITY_INSERT [dbo].[TBLNames] ON 
 INSERT [dbo].[TBLNames] ([NameID], [FirstName], [LastName], [CreatedDate])
 VALUES (NEWID(), N'Juan', N'Dela Cruz', GETDATE());
+```
